@@ -1,3 +1,3 @@
 # capstone
-Capstone Project of Misk Data Science Immersive Course 2021
+Capstone Project for Misk Data Science Immersive Course 2021
 

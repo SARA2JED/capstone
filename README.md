@@ -43,7 +43,7 @@ run the files in the following order to get the best result from the model
  - k mean clustering 
  - similarity 
 
-##Limitations & problems
+## Limitations & problems
 this code was written for a device with limited memory space to run it , but a little tweaking and it well be able to run bigger datasets 
 
 ## Refrences : 

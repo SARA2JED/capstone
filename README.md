@@ -3,7 +3,7 @@ Capstone Project for Misk Data Science Immersive Course 2021
 this project was created to test demonstrate my data since knowledge and nlp skills i've learned in this course
 
 
-# goals of this project 
+## goals of this project 
 develop a mode that can analyze and vectors words so they can be used to measure similarity between song lyrics and clusters of word that later can be mapped to emojis 
 
 

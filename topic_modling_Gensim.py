@@ -113,24 +113,3 @@ lda_model = gensim.models.ldamodel.LdaModel(corpus=corpus,
 # Print the Keyword in the 20 topics
 print(lda_model.print_topics())
 doc_lda = lda_model[corpus]
-
-#%%Write some lines to encode (sentences 0 and 2 are both ideltical):
-sen = df['processed_text'].iloc[:1]
-sen2 = ['happy','fun','joy','smile']
-#%%
-from sentence_transformers import SentenceTransformer
-#%%
-model = SentenceTransformer('bert-base-nli-mean-tokens')
-#%%Encoding:
-sen_embeddings = model.encode(sen)
-sen2_embeddings = model.encode(sen2)
-
-sen_embeddings.shape
-# %%
-from sklearn.metrics.pairwise import cosine_similarity
-#%%let's calculate cosine similarity for sentence 0:
-cosine_similarity(
-    sen2_embeddings,
-    sen_embeddings
-)
-# %%
